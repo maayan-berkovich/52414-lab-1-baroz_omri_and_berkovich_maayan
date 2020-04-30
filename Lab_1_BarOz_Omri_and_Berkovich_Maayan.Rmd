@@ -242,7 +242,6 @@ corona <- corona[,-c(1,2,3,4)] # removes first columns
 #full join 
 ecorona <- merge(corona,eco,by="country")
 ecorona <- ecorona[,-c(4, 7, 9, 10, 11, 12, 13, 16, 18)]
-ecorona
 ```
 
 ```{r}
